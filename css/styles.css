@@ -8,6 +8,26 @@ body {
   margin-right: 0;
 }
 
+#title {
+  padding-top: 10px;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+.section .row {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#contact {
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+
+.jumbotron {
+  background-color: rgba(200, 54, 54, 0.3);
+}
+
 #about, #resume, #projects, #contact {
   background-color: rgba(248,248,250,0.3);
   margin-top: 5px;
@@ -23,51 +43,18 @@ img {
   margin: 0;
 }
 
-.jumbotron {
-  background-color: rgba(200, 54, 54, 0.3);
-}
-
-#title {
-  padding-top: 10px;
-  padding-bottom: 0;
-  text-align: center;
-}
-
 #title img {
   position:relative;
-  right: -300px;
+  right: -220px;
   max-width:100%;
   max-height: 100%;
   transform: rotate(3deg);
   border-radius: 50%;
 }
 
-.page-header h1 {
-  font-weight: bolder;
-  border-bottom: 0px;
-}
-
-#contact {
-  padding-top: 10px;
-  padding-bottom: 0px;
-}
-
-.section .row {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
 .resume-buttons p {
   margin: 15px;
   float: right;
-}
-
-.degrees p:first-child, .jobs p:first-child {
-  font-weight: bolder;
-}
-
-#projects {
-  color: white;
 }
 
 h3 {
@@ -78,14 +65,28 @@ span {
   font-weight: bold;
 }
 
+.page-header h1 {
+  font-weight: bolder;
+  border-bottom: 0px;
+}
+
+.section-title {
+  text-align: left;
+}
+
+#projects {
+  color: white;
+}
+
 ul li {
     list-style-type: none;
     display: inline;
     padding:1.5px;
 }
 
-.section-title {
-  text-align: left;
+#contact ul li {
+    float: right;
+    margin-right:10px;
 }
 
 .thumbnail {
@@ -98,9 +99,4 @@ ul li {
   height: 213px;
   max-width: 100%;
   max-height: 100%;
-}
-
-#contact ul li {
-    float: right;
-    margin-right:10px;
 }
