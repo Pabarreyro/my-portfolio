@@ -10,6 +10,7 @@ _This will provide a landing page for my GitHub portfolio, housing my biography,
 
 ## Setup/Installation Requirements
 
+* _Access this GitHub page at pabarreyro.github.io/my-portfolio/_
 * _Clone this repository locally, in full_
 * _Open index.html via your command line or GUI_
 * _Use your preferred code editor to change the index.html and styles.css files_
